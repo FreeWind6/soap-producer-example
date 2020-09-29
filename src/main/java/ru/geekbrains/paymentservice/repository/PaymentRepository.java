@@ -18,30 +18,35 @@ public class PaymentRepository {
         payment1.setName("PayPal");
         payment1.setCountry("USA");
         payment1.setFee(100);
+        payment1.setPrice(100);
 
         Payment payment2 = new Payment();
         payment2.setId(2);
         payment2.setName("GooglePay");
         payment2.setCountry("USA");
         payment2.setFee(200);
+        payment2.setPrice(100);
 
         Payment payment3 = new Payment();
         payment3.setId(3);
         payment3.setName("WebMoney");
         payment3.setCountry("Russia");
         payment3.setFee(200);
+        payment3.setPrice(100);
 
         Payment payment4 = new Payment();
         payment4.setId(4);
         payment4.setName("YandexMoney");
         payment4.setCountry("Russia");
         payment4.setFee(190);
+        payment4.setPrice(100);
 
         Payment payment5 = new Payment();
         payment5.setId(5);
         payment5.setName("RoboKassa");
         payment5.setCountry("Russia");
         payment5.setFee(180);
+        payment5.setPrice(100);
 
         return new ArrayList<Payment>() {{
             add(payment1);
